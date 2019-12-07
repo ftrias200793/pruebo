@@ -1,0 +1,424 @@
+
+#menucentra
+{
+  padding: 20px;
+}
+#logo
+{
+  font-size: x-large;
+  color: #00b4d9;
+  text-decoration:none;
+}
+#colorico
+{
+color: black;
+font-weight:bold;
+}
+#hero-area
+{
+  background-image: url('./imagenes/imagen1.jpg');
+  width: 100%;
+  height: 500px;
+  position: relative;
+  filter:brightness(90%);
+}
+#RedSocial
+{
+font-size: xx-large;
+color: cornsilk;
+margin: 10px;
+}
+#ContedorPresentacionIconos
+{
+text-align: center;
+position: relative;
+left: 50%;
+right: 50%;
+transform: translate(-50%,20%);
+font-family: 'Courier New', Courier, monospace;
+}
+#presenta
+{font: xx-large;
+color: white;
+font-family: cursive;
+}
+#presentanombre
+{font-style:italic;
+  font-weight:bold;
+  font-size:75px;
+  color:#ffffff;
+  font-family:'Helvetica','Verdana','Monaco',sans-serif;
+}
+#presentaesc
+{
+  font-size: 30px;
+  color: 
+  #fff;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.img1
+{
+padding-top: 90px;
+}
+#fotobill
+{
+    width: 800px;
+    height: 700px;
+ border: 8px solid #fff;
+  border-top-color: rgb(255, 255, 255);
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-right-color: rgb(255, 255, 255);
+  border-right-style: solid;
+  border-right-width: 8px;
+  border-bottom-color: rgb(255, 255, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-left-color: rgb(255, 255, 255);
+  border-left-style: solid;
+  border-left-width: 8px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+box-shadow: 0 0 30px rgba(0,0,0,.2);
+max-width: 100%;
+}
+#Info1
+{
+font-family: Arial, Helvetica, sans-serif;
+color: dimgrey;
+}
+.Datos
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  padding-top: 70px;
+ }
+ .TextoFuenteColor
+     {
+      font-weight: 700;
+      color:
+      #040404;
+      position: relative;
+      width: 140px;
+      display: inline-block;
+      margin-bottom: 5px;
+     }
+     .TextoFuenteColor::after
+     {
+      position: absolute;
+      content: ':';
+      color:
+      #040404;
+      font-size: 14px;
+      left: 120px;
+     }
+    
+ #separoBoton
+ {
+font-size: large;
+  margin-left:15px;
+ }
+ #contenido
+ {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       background-color: 
+       rgb(255, 255, 255);
+  padding-top: 55px;
+ padding-bottom: 55px;    
+ text-align: center;
+ /*ver*/
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+   }
+#servicios
+{
+background-color: gainsboro;
+box-sizing: border-box;
+padding: 60px;
+display: block;
+float: none;
+line-height: 25px;
+position: static;
+z-index: auto;
+height: 40%;
+margin-top: 30px;
+}
+.titulo
+{
+text-align: center;
+font: bolder;
+padding: 25px;
+}
+.iconos
+{
+color: dodgerblue;
+}
+#titcubo
+{
+color: black;
+text-decoration:none;
+}
+.EduTra
+{
+padding: 60px 0;
+padding-top: 60px;
+padding-right: 0px;
+padding-bottom: 60px;
+padding-left: 0px;
+box-sizing: border-box;
+}
+#IconoTitu
+{
+font-size: xx-large;
+    float: left;
+    margin-left: -20px;
+    background: white;
+}
+#contenidoET
+{
+background:
+#f2f2f2;
+  background-color: 
+      rgb(242, 242, 242);
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-repeat: repeat;
+      background-attachment: scroll;
+      background-image: none;
+      background-size: auto;
+      background-origin: padding-box;
+      background-clip: border-box;
+      padding: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+}
+.educacion
+{
+-webkit-box-flex: 0;
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 50%;
+max-width: 50%;
+}
+#TituloIco
+{
+text-transform: uppercase;
+margin-left: 55px;
+}
+.list-group-item
+{
+  border:none !important;
+}
+#list::before
+{
+  content: "";
+  border: solid 2px;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  font-size: 8px;
+  margin-left: -35px;
+  font-weight: 400;
+  background:
+  #fff;
+  display: block;
+  position: absolute;
+  margin-top: 18px;
+  border-color:
+      #00b4d9 !important;
+  }
+#TitulosET
+{ font-size: 15px;
+}
+#TitulosETfecha
+{ font-size: 10px;
+}
+#EducacionTrabajoP
+{
+color: #888;
+line-height: 18px;
+font-weight: 400;
+font-family: source sans pro,sans-serif;
+margin: 0;
+font-size: 14px;
+}
+#GrandesObras
+{
+background: #f2f2f2;
+background-color: rgb(242, 242, 242);
+background-size: auto;
+background-origin: padding-box;
+background-clip: border-box;
+padding: 60px 0;
+padding-top: 60px;
+padding-bottom: 60px;
+text-align: center;
+}
+.contenedorimg
+{
+display: flex;
+width: 300px;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 5px;
+margin: auto;
+}
+.estoyimg
+{
+width: 300px;
+height: 200px;
+margin: 0%;
+object-fit: cover;
+}
+#fondoFotos
+{
+filter:brightness(60%);
+width: 100%;
+height: 300px;
+position: absolute;
+}
+#icon
+{
+  display: flex;
+  align-items: center; 
+ justify-content: center;
+ align-items: center;
+}
+#icovisitas
+{ 
+color:cyan;
+font-size: 50px;
+text-decoration:none;
+}
+#premios
+{
+  background-image: url('./imagenes/fondo.jpg')  ;
+  filter:brightness(90%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#cantsegun
+{text-align: center;
+color: white;
+font-size: xx-large;
+}
+#contacto-formulario
+{background:white;
+}
+#seccion-formulario-contacto
+{
+padding:  45px;
+background:whitesmoke;
+}
+#muevoformu
+{
+padding-left: 10px;
+}
+#texmensaje
+{
+font-size: 25px;
+}
+.row
+{
+  padding: 40px;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-sizing: border-box;
+}
+#contengo
+{
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+}
+.contenido
+{
+text-align: center !important;
+padding-top: 25px;
+}
+  #IconoTrabajo
+  {
+    font-size: 20px;
+    float: left;
+    margin-left: -30px;
+    line-height: 50px;
+    border-radius: 30px;
+    margin: -12px -55px;
+    background: #00b4d9;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  }
+  #separoBoton
+  {
+margin-right: 15px;
+font-size: 20px;
+  }
+  .BotonFotos
+  {
+text-align: center;
+  }
+  #BotonFotos1
+  {
+    font-size: 25px;
+    background-color: lightskyblue;
+   margin: 5px;
+  }
+#icocontacto
+{padding: 5px;
+  margin:  5px;
+float: left;
+font-size: 48px;
+color:cadetblue;
+}
+#cuadro
+{
+top: 10px;
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+margin: auto;
+}
+#conmapa
+{ 
+top: 10px;
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+margin: auto;
+}
+#mapa
+{
+width: 100%;
+height: 400px;
+object-fit: cover;
+}
+#ultimocontenido
+  { 
+    background: black;
+    font-size: x-large;
+   color: white;
+  }
